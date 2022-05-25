@@ -1,0 +1,37 @@
+публічний  клас  FirstTask {
+    public  static  void  main ( рядок [] аргументи ) {
+        система . поза . println (( int )( Math . random ()* 41 )- 20 );
+    }
+     
+імпортувати  java . util . Сканер ;
+
+відкритий  клас  FourTask {
+    public  static  void  main ( рядок [] аргументи ) {
+        Рядкова  програма = "" ; // ЧИСЛА, ЯКІ ЗАГАДАЛА ПРОГРАМА
+        Рядок  userInput = "" ; // ЧИСЛА ЯКІ ВВОДИТИМЕ КОРИСТУВАЧ
+        int  спроба = 0 ; // СПРОБИ
+        for ( int  i = 0 ; i < 3 ; i ++) {
+            програма = програма . concat ( String . valueOf (( int )( Math . random ()* 3 ) + 1 ));
+        }
+
+
+        Scanner  sc = новий  сканер ( System . in );
+публічний  клас  SecondTask {
+    public  static  void  main ( рядок [] аргументи ) {
+        int  a = 3 ;
+        int  b = 4 ;
+        подвійне  c = математика . sqrt (( a * a ) + ( b * b ));
+        int  pl = ( a * b )/ 2 ;
+        подвійний  per = a + b + c ;
+        система . поза . println ( "Площа прямокутного трикутника рівні: " + pl );
+        система . поза . println ( "Периметр прямокутного трикутника рівні: " + per );
+    }
+}
+публічний  клас  ThirdTask {
+    public  static  void  main ( рядок [] аргументи ) {
+        подвійне  число = Math . випадковий ()* 102 ;
+        система . поза . println ( число );
+        система . поза . println ( String . valueOf ( num ). length () - 1 );
+
+    }
+}
